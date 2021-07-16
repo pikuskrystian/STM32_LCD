@@ -19,3 +19,6 @@ MISO (Master Input Slave Output) – dane wysyłane z slave do mastera
 SCLK (Serial Clock) – linia zegara
 Dzięki temu, że sygnał zegarowy jest przesyłany na liniach interfejsu, komunikacja jest znacznie łatwiejsza. Możliwe jest również uzyskanie znaczenie większych prędkości transmisji niż w przypadku interfejsu UART.
 
+Wybór aktywnego układu dokonywany jest przez wystawienie stanu niskiego na odpowiedniej linii CS. Tylko jeden układ może być aktywny w danej chwili (pozostałych liniach CS stan wysoki).
+
+![alt_text](https://cdn.forbot.pl/blog/wp-content/uploads/2015/11/363px-SPI_three_slaves.svg_.png)
