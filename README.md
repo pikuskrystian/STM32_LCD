@@ -1,5 +1,4 @@
 # STM32_LCD
-układ stm32f411e-DISCO połączony z wyswietlaczem LCD 1,8'' poprzez SPI
 
 
 Podłączenie SPI
@@ -22,3 +21,7 @@ Dzięki temu, że sygnał zegarowy jest przesyłany na liniach interfejsu, komun
 Wybór aktywnego układu dokonywany jest przez wystawienie stanu niskiego na odpowiedniej linii CS. Tylko jeden układ może być aktywny w danej chwili (pozostałych liniach CS stan wysoki).
 
 ![alt_text](https://cdn.forbot.pl/blog/wp-content/uploads/2015/11/363px-SPI_three_slaves.svg_.png)
+
+
+Przeczytac:
+Komunikacja SPI na STM
