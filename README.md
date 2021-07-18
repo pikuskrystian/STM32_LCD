@@ -25,3 +25,6 @@ Wybór aktywnego układu dokonywany jest przez wystawienie stanu niskiego na odp
 
 Przeczytac:
 Komunikacja SPI na STM
+
+przeczytac bliblioteki
+podlaczyc wyswietlacz
