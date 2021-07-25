@@ -1,4 +1,3 @@
-Wyświetlacz graficzny
 
 RST - linia resetująca rejestry wyświetlacza. Przed rozpoczęciem pracy z wyświetlaczem, należy wygenerować na niej stan zero przez co najmniej 100 ns. Podczas normalnej pracy wyświetlacza, na tej linii powinien być ciągle stan wysoki.
 CE - jest to linia CS interfejsu SPI, nazwa pochodzi od Chip Enable.
